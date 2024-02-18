@@ -1,0 +1,49 @@
+.btn-own {
+  width: 100%;
+  margin: 25px auto;
+  display: block;
+  padding: 10px;
+  border-radius: $border-radius;
+  border: 1px solid #DADADA;
+  background-color: #DADADA;
+  transition: 0.5s;
+  color: white;
+
+  &:hover {
+    background-color: lighten(#DADADA, 20%);
+    border: 1px solid white;
+    box-shadow: 3px 3px 3px #DADADA;
+  }
+
+  &:active {
+    background-color: darken(#DADADA, 20%);
+    border: 1px solid darken(white, 20%);
+    box-shadow: 3px 3px 3px darken(#DADADA, 20%);
+  }
+}
+
+@mixin btn-own($border-color, $background-color, $color, $hover-bk-color, $hover-border-color, $hover-shadow-color) {
+  width: 100%;
+  margin: 25px auto;
+  display: block;
+  padding: 10px;
+  border-radius: $border-radius;
+  border: 1px solid $border-color;
+  background-color: $background-color;
+  transition: 0.5s;
+  color: $color;
+
+  &:hover {
+    background-color: lighten($hover-bk-color, 20%);
+    border: 1px solid $hover-border-color;
+    box-shadow: 3px 3px 3px $hover-shadow-color;
+  }
+
+  &:active {
+    background-color: darken($hover-bk-color, 20%);
+    border: 1px solid darken($hover-border-color, 20%);
+    box-shadow: 3px 3px 3px darken($hover-shadow-color, 20%);
+  }
+}
+
+

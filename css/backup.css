@@ -1,29 +1,13 @@
-.libre-baskerville-regular {
-  font-family: "Libre Baskerville", serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.libre-baskerville-bold {
-  font-family: "Libre Baskerville", serif;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 48px;
-}
-
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  font-family: "Nunito Sans", sans-serif;
-}
-
 header {
   background-color: #FFFFFF;
 }
 
 body {
   background-color: #F9F9F9;
+}
+
+.navbar {
+  padding: 1rem;
 }
 
 main {
@@ -37,7 +21,7 @@ body {
 }
 
 footer {
-  margin-top: 35px;
+  margin-top:35px;
   flex-shrink: 0;
   background-color: white;
 }
@@ -65,51 +49,22 @@ h4 {
 }
 
 hr {
-  width: 60px;
-  background-color: #7c4dff;
+  width: 60px; 
+  background-color: #7c4dff; 
   height: 2px;
 }
 
-.btn-own {
-  width: 100%;
-  margin: 25px auto;
-  display: block;
-  padding: 10px;
-  border-radius: 10px;
-  border: 1px solid #DADADA;
-  background-color: #DADADA;
-  transition: 0.5s;
-  color: white;
-}
-.btn-own:hover {
-  background-color: white;
-  border: 1px solid white;
-  box-shadow: 3px 3px 3px #DADADA;
-}
-.btn-own:active {
-  background-color: #a7a7a7;
-  border: 1px solid #cccccc;
-  box-shadow: 3px 3px 3px #a7a7a7;
-}
-
-.navbar {
-  padding: 1rem;
-}
-
-footer p {
-  margin: 10px 0;
-}
 
 .copyright {
   background-color: rgba(0, 0, 0, 0.2);
   margin-bottom: 0px;
 }
 
-.text-subtitle-container {
+.text-subtitle-container{
   padding: 2.5rem 0 1.5rem;
 }
 
-.text-subtitle {
+.text-subtitle{
   color: gray;
 }
 
@@ -129,31 +84,34 @@ footer p {
   height: 40px;
   display: inline-block;
   background-color: #DADADA;
-  color: #6D6D6D;
+  color: #6D6D6D; 
   width: 100%;
 }
+
+
 
 .card-img-top {
   padding: 20px;
 }
 
 .flex-container {
-  display: flex; /* establish flex container */
-  flex-direction: column; /* make main axis vertical */
+  display: flex;           /* establish flex container */
+  flex-direction: column;  /* make main axis vertical */
   justify-content: center; /* center items vertically, in this case */
-  align-items: center; /* center items horizontally, in this case */
+  align-items: center;     /* center items horizontally, in this case */
   min-height: 350px;
 }
+
 
 .box {
   max-width: 650px;
   margin: 5px;
-  text-align: center; /* will center text in <p>, which is not a flex item */
+  text-align: center;     /* will center text in <p>, which is not a flex item */
 }
 
 .anuncio {
   min-height: 350px;
-  padding: 0;
+  padding:0;
 }
 
 .anuncio-color-1 {
@@ -166,16 +124,32 @@ footer p {
   color: black;
 }
 
-.video {
+.video{
   text-align: center;
 }
-
-.video iframe {
+.video iframe{
   max-width: 510px;
   width: 100%;
   height: 300px;
   border-radius: 15px;
 }
+
+.max-width {
+  max-width: 100%;
+}
+
+
+.login-box {
+  min-width: 300px;
+  width: 400px;
+  height: 450px;
+  margin: 200px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 15px;
+}
+
+
 
 .buscador-container {
   background-color: white;
@@ -183,6 +157,7 @@ footer p {
   border: 2px solid #DADADA;
   border-radius: 10px;
 }
+
 .buscador-container input {
   width: 100%;
   margin: 10px auto;
@@ -192,11 +167,9 @@ footer p {
   border: 1px solid #DADADA;
 }
 
-.frequent-questions hr {
-  width: 90%;
-  background-color: #B5C0D0;
+.login-box h2, p {
+  margin: 10px 0;
 }
-
 .login-box input {
   width: 100%;
   margin: 25px auto;
@@ -206,25 +179,36 @@ footer p {
   border: 1px solid #DADADA;
 }
 
-.btn-help {
+.pseudo-title {
+  margin: 30px 30px;
+}
+
+.btn-login {
   width: 100%;
   margin: 25px auto;
   display: block;
   padding: 10px;
   border-radius: 10px;
   border: 1px solid #DADADA;
-  background-color: black;
-  transition: 0.5s;
+  background-color: #0466C8;
   color: white;
 }
-.btn-help:hover {
-  background-color: #333333;
-  border: 1px solid white;
-  box-shadow: 3px 3px 3px black;
+
+.btn-help {
+  width: 100%;
+  margin: 25px auto;
+  display: block;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #DADADA;
+  color: white;
+  transition: 0.5s;
 }
-.btn-help:active {
+
+
+.btn-help:hover {
   background-color: black;
-  border: 1px solid #cccccc;
+  border: 1px solid white;
   box-shadow: 3px 3px 3px black;
 }
 
@@ -234,7 +218,7 @@ footer p {
   display: inline-block;
 }
 
-.mg-1-rl {
+.mg-1-rl{
   margin: 0px 5px;
 }
 
@@ -281,36 +265,3 @@ footer p {
 .mg-6-tb {
   margin: 30px 0px;
 }
-
-.login-box {
-  min-width: 300px;
-  width: 400px;
-  height: 450px;
-  margin: 200px auto;
-  padding: 20px;
-  background-color: white;
-  border-radius: 15px;
-}
-.login-box .btn-login {
-  width: 100%;
-  margin: 25px auto;
-  display: block;
-  padding: 10px;
-  border-radius: 10px;
-  border: 1px solid #DADADA;
-  background-color: #0466C8;
-  transition: 0.5s;
-  color: white;
-}
-.login-box .btn-login:hover {
-  background-color: #3799fb;
-  border: 1px solid white;
-  box-shadow: 3px 3px 3px #0466C8;
-}
-.login-box .btn-login:active {
-  background-color: #023364;
-  border: 1px solid #cccccc;
-  box-shadow: 3px 3px 3px #023364;
-}
-
-/*# sourceMappingURL=style.css.map */

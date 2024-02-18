@@ -1,0 +1,125 @@
+
+.text-subtitle-container{
+  padding: 2.5rem 0 1.5rem;
+}
+
+.text-subtitle{
+  color: gray;
+}
+
+.align-sub {
+  vertical-align: sub;
+}
+
+.card-body {
+  padding-top: 0;
+}
+
+.container-fluid {
+  padding-left: 0;
+}
+
+.links-container {
+  height: 40px;
+  display: inline-block;
+  background-color: #DADADA;
+  color: #6D6D6D; 
+  width: 100%;
+}
+
+
+.card-img-top {
+  padding: 20px;
+}
+
+.flex-container {
+  display: flex;           /* establish flex container */
+  flex-direction: column;  /* make main axis vertical */
+  justify-content: center; /* center items vertically, in this case */
+  align-items: center;     /* center items horizontally, in this case */
+  min-height: 350px;
+}
+
+
+.box {
+  max-width: 650px;
+  margin: 5px;
+  text-align: center;     /* will center text in <p>, which is not a flex item */
+}
+
+.anuncio {
+  min-height: 350px;
+  padding:0;
+}
+
+.anuncio-color-1 {
+  background-color: $secondary-color;
+  color: white;
+}
+
+.anuncio-color-2 {
+  background-color: #F6F6F6;
+  color: black;
+}
+
+.video{
+  text-align: center;
+}
+.video iframe{
+  max-width: 510px;
+  width: 100%;
+  height: 300px;
+  border-radius: $border-radius;
+}
+
+.buscador-container {
+  background-color: white;
+  padding: 20px;
+  border: 2px solid $tertiary-color;
+  border-radius: 10px;
+
+  input {
+    width: 100%;
+    margin: 10px auto;
+    display: block;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid $tertiary-color;
+  }
+}
+
+.frequent-questions hr{
+  width: 90%;
+  background-color: #B5C0D0;
+}
+
+.login-box input {
+  width: 100%;
+  margin: 25px auto;
+  display: block;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid $tertiary-color;
+}
+
+.btn-help {
+  @include btn-own($tertiary-color, black, white, black, white, black);
+}
+
+.icon {
+  width: 32px;
+  height: 32px;
+  display: inline-block;
+}
+
+@for $valor from 1 through 6{
+  .mg-#{$valor}-rl{
+    margin: 0px $valor * 5px;
+  }
+}
+
+@for $valor from 1 through 6{
+  .mg-#{$valor}-tb{
+    margin: $valor * 5px 0px;
+  }
+}

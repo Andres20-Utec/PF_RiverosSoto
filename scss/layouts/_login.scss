@@ -1,0 +1,13 @@
+.login-box {
+  min-width: 300px;
+  width: 400px;
+  height: 450px;
+  margin: 200px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 15px;
+
+  .btn-login {
+    @include btn-own($tertiary-color, $secondary-color, white, $secondary-color, white, $secondary-color);
+  }
+}
