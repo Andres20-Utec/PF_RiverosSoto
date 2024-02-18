@@ -2,8 +2,12 @@ header {
   background-color: #FFFFFF;
 }
 
+body {
+  background-color: #F9F9F9;
+}
+
 .navbar {
-    padding: 1rem;
+  padding: 1rem;
 }
 
 main {
@@ -26,6 +30,36 @@ p {
   margin-bottom: 0;
 }
 
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+h4 {
+  font-size: 16px;
+}
+
+hr {
+  width: 60px; 
+  background-color: #7c4dff; 
+  height: 2px;
+}
+
+
+.copyright {
+  background-color: rgba(0, 0, 0, 0.2);
+  margin-bottom: 0px;
+}
+
 .text-subtitle-container{
   padding: 2.5rem 0 1.5rem;
 }
@@ -34,12 +68,12 @@ p {
   color: gray;
 }
 
-.card-body {
-  padding-top: 0;
+.align-sub {
+  vertical-align: sub;
 }
 
-body {
-  background-color: #F9F9F9;
+.card-body {
+  padding-top: 0;
 }
 
 .container-fluid {
@@ -54,17 +88,6 @@ body {
   width: 100%;
 }
 
-a {
-  text-decoration: none;
-  color: #000000;
-}
-
-
-hr {
-  width: 60px; 
-  background-color: #7c4dff; 
-  height: 2px;
-}
 
 
 .card-img-top {
@@ -78,6 +101,7 @@ hr {
   align-items: center;     /* center items horizontally, in this case */
   min-height: 350px;
 }
+
 
 .box {
   max-width: 650px;
@@ -125,10 +149,7 @@ hr {
   border-radius: 15px;
 }
 
-li {
-  list-style-type: none;
 
-}
 
 .buscador-container {
   background-color: white;
@@ -173,9 +194,74 @@ li {
   color: white;
 }
 
+.btn-help {
+  width: 100%;
+  margin: 25px auto;
+  display: block;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #DADADA;
+  color: white;
+  transition: 0.5s;
+}
+
+
+.btn-help:hover {
+  background-color: black;
+  border: 1px solid white;
+  box-shadow: 3px 3px 3px black;
+}
+
 .icon {
-  width: 30px;
-  height: 30px;
+  width: 32px;
+  height: 32px;
   display: inline-block;
+}
+
+.mg-1-rl{
+  margin: 0px 5px;
+}
+
+.mg-2-rl {
   margin: 0px 10px;
+}
+
+.mg-3-rl {
+  margin: 0px 15px;
+}
+
+.mg-4-rl {
+  margin: 0px 20px;
+}
+
+.mg-5-rl {
+  margin: 0px 25px;
+}
+
+.mg-6-rl {
+  margin: 0px 30px;
+}
+
+.mg-1-tb {
+  margin: 5px 0px;
+}
+
+.mg-2-tb {
+  margin: 10px 0px;
+}
+
+.mg-3-tb {
+  margin: 15px 0px;
+}
+
+.mg-4-tb {
+  margin: 20px 0px;
+}
+
+.mg-5-tb {
+  margin: 25px 0px;
+}
+
+.mg-6-tb {
+  margin: 30px 0px;
 }
