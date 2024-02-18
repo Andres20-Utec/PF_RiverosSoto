@@ -109,6 +109,11 @@ footer p {
   padding: 2.5rem 0 1.5rem;
 }
 
+.logo {
+  height: 26px;
+  width: 26px;
+}
+
 .text-subtitle {
   color: gray;
 }
