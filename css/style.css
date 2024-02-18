@@ -96,13 +96,13 @@ hr {
   padding: 1rem;
 }
 
-footer p {
-  margin: 10px 0;
-}
-
 .copyright {
   background-color: rgba(0, 0, 0, 0.2);
   margin-bottom: 0px;
+}
+
+footer p {
+  margin: 10px 0;
 }
 
 .text-subtitle-container {
@@ -174,7 +174,7 @@ footer p {
   max-width: 510px;
   width: 100%;
   height: 300px;
-  border-radius: 15px;
+  border-radius: 10px;
 }
 
 .buscador-container {
