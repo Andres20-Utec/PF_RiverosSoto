@@ -131,13 +131,42 @@ hr {
   padding: 1rem;
 }
 
-.copyright {
-  background-color: rgba(0, 0, 0, 0.2);
-  margin-bottom: 0px;
+.nav-item, footer p {
+  color:black;
+  font-weight: 650;
+  font-size: 0.9rem;
 }
 
-footer p {
+.nav-item:last-child {
+  margin-right: 1.5rem;
+}
+
+.navbar input {
+  font-size: 0.9rem;
+  padding-left: 1.5rem;
+  border-color: grey;
+}
+
+.copyright{
+  background-color: rgba(0, 0, 0, 0.2);
+  color: black;
+  margin-bottom: 0px;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.copyright a {
+  color: black;
+}
+
+footer p, footer a {
   margin: 10px 0;
+  color: #B6BBC4;
+  font-weight: 500;
+}
+
+footer h4 {
+  margin-bottom: 1rem;
 }
 
 .text-subtitle-container {
@@ -151,6 +180,7 @@ footer p {
 
 .text-subtitle {
   color: gray;
+  font-size: 0.9rem;
 }
 
 .align-sub {
@@ -159,6 +189,27 @@ footer p {
 
 .card-body {
   padding-top: 0;
+}
+
+.card-title {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.card-title-contactenos{
+  font-size: 1.2rem;
+}
+
+.card-text-contactenos{
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+
+.card-text {
+  font-size: 0.9rem;
+  font-weight: 650;
+  color:black;
 }
 
 .container-fluid {
@@ -193,7 +244,8 @@ footer p {
 
 .anuncio {
   min-height: 350px;
-  padding: 0;
+
+  box-sizing: border-box;
 }
 
 .anuncio-color-1 {
