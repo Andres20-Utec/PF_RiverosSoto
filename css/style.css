@@ -131,11 +131,12 @@ hr {
   padding: 1rem;
 }
 
-.nav-item, footer p {
+.nav-item{
   color:black;
   font-weight: 650;
   font-size: 0.9rem;
 }
+
 
 .nav-item:last-child {
   margin-right: 1.5rem;
@@ -161,8 +162,8 @@ hr {
 
 footer p, footer a {
   margin: 10px 0;
-  color: #B6BBC4;
   font-weight: 500;
+  font-size: 0.8rem;
 }
 
 footer h4 {
