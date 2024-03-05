@@ -166,8 +166,9 @@ footer p, footer a {
   font-size: 0.8rem;
 }
 
-footer h4 {
+footer h2 {
   margin-bottom: 1rem;
+  font-size: 1rem;
 }
 
 .text-subtitle-container {
@@ -276,6 +277,11 @@ footer h4 {
   border: 2px solid #DADADA;
   border-radius: 10px;
 }
+
+.buscador-container h2 {
+  font-size: 1.5rem;
+}
+
 .buscador-container input {
   width: 100%;
   margin: 10px auto;
